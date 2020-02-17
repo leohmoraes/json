@@ -1,0 +1,29 @@
+{
+"user":[
+  {
+    "id": 1,
+    "name": "Alan dos Santos",  
+    "firs_name":"Alan",
+    "last_name":"dos Santos",
+    "mail": "alan@naoexiste.com"
+    "genre": "man",
+    "age": "20",
+    "birthday": "2000/02/16"
+  }
+],
+"shop":[
+  {
+    "id": 1,
+    "name": "Maverick 1970",
+    "category": "car",
+    "location": "",
+    "city": "Itapema",
+    "state": "SC",
+    "owner": "Fulano dos Santos",
+    "phone": "48999212192",
+    "price": "130000",
+    "date_added": "20200216080000",
+    "image":""
+   }
+ ]
+}
