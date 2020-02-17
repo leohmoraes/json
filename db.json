@@ -25,5 +25,29 @@
          "date_added":"20200216080000",
          "image":""
       }
+   ],
+   "currencies": [
+      {
+         "description": "Modelo de JSON das cotações cambial no HG Finance",
+         "source": "BRL",
+         "USD": {
+            "name": "Dollar",
+            "buy": 4.25,
+            "sell": 4.14,
+            "variation": "0.25"
+         },
+         "EUR": {
+            "name": "Euro",
+            "buy": 4.15,
+            "sell": 4.04,
+            "variation": "0.15"
+         },
+         "ARS": {
+            "name": "Peso Argentino",
+            "buy": 2.25,
+            "sell": 2.14,
+            "variation": "-0.25"
+         },         
+      }
    ]
 }
