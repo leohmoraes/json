@@ -1,6 +1,6 @@
-{ 
-   "user":[ 
-      { 
+{
+   "user":[
+      {
          "id":1,
          "name":"Alan dos Santos",
          "firs_name":"Alan",
@@ -11,8 +11,8 @@
          "birthday":"2000/02/16"
       }
    ],
-   "shop":[ 
-      { 
+   "shop":[
+      {
          "id":1,
          "name":"Maverick 1970",
          "category":"car",
@@ -26,28 +26,153 @@
          "image":""
       }
    ],
-   "currencies": [
-      {
-         "description": "Modelo de JSON das cotações cambial no HG Finance",
-         "source": "BRL",
-         "USD": {
-            "name": "Dollar",
-            "buy": 4.25,
-            "sell": 4.14,
-            "variation": "0.25"
+   "cotacao":{
+      "by":"default",
+      "valid_key":true,
+      "results":{
+         "currencies":{
+            "source":"BRL",
+            "USD":{
+               "name":"Dollar",
+               "buy":4.094,
+               "sell":4.0977,
+               "variation":0.186
+            },
+            "EUR":{
+               "name":"Euro",
+               "buy":4.5585,
+               "sell":4.5574,
+               "variation":0.29
+            },
+            "GBP":{
+               "name":"Pound Sterling",
+               "buy":5.3525,
+               "sell":null,
+               "variation":0.094
+            },
+            "ARS":{
+               "name":"Argentine Peso",
+               "buy":0.0687,
+               "sell":null,
+               "variation":0.292
+            },
+            "BTC":{
+               "name":"Bitcoin",
+               "buy":35552.718,
+               "sell":35552.718,
+               "variation":1.094
+            }
          },
-         "EUR": {
-            "name": "Euro",
-            "buy": 4.15,
-            "sell": 4.04,
-            "variation": "0.15"
+         "stocks":{
+            "IBOVESPA":{
+               "name":"BM&F BOVESPA",
+               "location":"Sao Paulo, Brazil",
+               "points":115503.422,
+               "variation":-0.38
+            },
+            "NASDAQ":{
+               "name":"NASDAQ Stock Market",
+               "location":"New York City, United States",
+               "points":9178.86,
+               "variation":-0.27
+            },
+            "CAC":{
+               "name":"CAC 40",
+               "location":"Paris, French",
+               "variation":-0.09
+            },
+            "NIKKEI":{
+               "name":"Nikkei 225",
+               "location":"Tokyo, Japan",
+               "variation":0.47
+            }
          },
-         "ARS": {
-            "name": "Peso Argentino",
-            "buy": 2.25,
-            "sell": 2.14,
-            "variation": "-0.25"
-         },         
-      }
-   ]
+         "available_sources":[
+            "BRL"
+         ],
+         "bitcoin":{
+            "blockchain_info":{
+               "name":"Blockchain.info",
+               "format":[
+                  "USD",
+                  "en_US"
+               ],
+               "last":8192.55,
+               "buy":8192.55,
+               "sell":8192.55,
+               "variation":1.094
+            },
+            "coinbase":{
+               "name":"Coinbase",
+               "format":[
+                  "USD",
+                  "en_US"
+               ],
+               "last":8190.005,
+               "variation":1.021
+            },
+            "bitstamp":{
+               "name":"BitStamp",
+               "format":[
+                  "USD",
+                  "en_US"
+               ],
+               "last":8192.41,
+               "buy":8196.33,
+               "sell":8190.05,
+               "variation":1.104
+            },
+            "foxbit":{
+               "name":"FoxBit",
+               "format":[
+                  "BRL",
+                  "pt_BR"
+               ],
+               "last":33150.07,
+               "variation":0.76
+            },
+            "mercadobitcoin":{
+               "name":"Mercado Bitcoin",
+               "format":[
+                  "BRL",
+                  "pt_BR"
+               ],
+               "last":33256,
+               "buy":33256,
+               "sell":33278,
+               "variation":0.61
+            },
+            "omnitrade":{
+               "name":"OmniTrade",
+               "format":[
+                  "BRL",
+                  "pt_BR"
+               ],
+               "last":33660,
+               "buy":33000,
+               "sell":33660,
+               "variation":0.688
+            },
+            "xdex":{
+               "name":"XDEX",
+               "format":[
+                  "BRL",
+                  "pt_BR"
+               ],
+               "last":33078,
+               "variation":0.884
+            }
+         },
+         "taxes":[
+            {
+               "date":"2020-01-09",
+               "cdi":4.4,
+               "selic":4.4,
+               "daily_factor":1.00017089
+            }
+         ]
+      },
+      "execution_time":0,
+      "from_cache":true
+   }
 }
