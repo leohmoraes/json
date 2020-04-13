@@ -1,0 +1,16 @@
+{
+   "usuario":[
+      {
+         "id":1,
+         "nome":"Alan dos Santos",
+         "mail":"alan@naoexiste.com",
+         "login":"admin",
+         "token":"admin",
+         "roles": [
+            {
+               "read":true
+            }],
+         "urlFoto": "https://avatars1.githubusercontent.com/u/5436213?s=60&u=40a2d1d4f5472e0bdc24d82d0092f1dc042608da&v=4"
+      }
+   ]
+}
