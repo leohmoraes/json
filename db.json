@@ -1,13 +1,4 @@
 {
-   "login": {
-      "username": "admin",
-      "password": "admin",
-      "id":1
-   },
-   "system": {
-      "error": 1,
-      "message": "Login invalid"
-   },
    "user":[
       {
          "id":1,
