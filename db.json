@@ -1,11 +1,28 @@
 {
+   "login": {
+      "username": "admin",
+      "password": "admin",
+      "id":1
+   },
+   "system": {
+      "error": 1,
+      "message": "Login invalid
+   },
    "user":[
       {
          "id":1,
          "name":"Alan dos Santos",
+         "nome":"Alan dos Santos",
          "firs_name":"Alan",
          "last_name":"dos Santos",
          "mail":"alan@naoexiste.com",
+         "login":"admin",
+         "token":"admin",
+         "roles": [
+            {
+               "read":true
+            }],
+         "urlFoto": "https://avatars1.githubusercontent.com/u/5436213?s=60&u=40a2d1d4f5472e0bdc24d82d0092f1dc042608da&v=4",
          "genre":"man",
          "age":"20",
          "birthday":"2000/02/16"
